@@ -1,0 +1,762 @@
+STATUS | wrapper  | 2016/01/11 13:21:02 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/01/11 13:21:02 | Launching a JVM...
+INFO   | jvm 1    | 2016/01/11 13:21:07 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/01/11 13:21:07 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/01/11 13:21:07 | 
+INFO   | jvm 1    | 2016/01/11 13:21:07 | Java Runtime: Oracle Corporation 1.8.0_66 C:\Program Files\Java\jre1.8.0_66
+INFO   | jvm 1    | 2016/01/11 13:21:07 |   Heap sizes: current=123904k  free=114717k  max=932352k
+INFO   | jvm 1    | 2016/01/11 13:21:07 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=W_IYgZj7Z5magRO8 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=5152 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/01/11 13:21:07 | Extensions classpath:
+INFO   | jvm 1    | 2016/01/11 13:21:07 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2016/01/11 13:21:07 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/01/11 13:21:07 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/01/11 13:21:07 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/01/11 13:21:07 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/01/11 13:21:10 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/01/11 13:21:11 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@1f88d510: startup date [Mon Jan 11 13:21:11 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/11 13:21:20 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2016/01/11 13:21:20 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/01/11 13:21:22 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2016/01/11 13:21:23 |  INFO | Recovering from the journal @1:503
+INFO   | jvm 1    | 2016/01/11 13:21:23 |  INFO | Recovery replayed 6594 operations from the journal in 0.586 seconds.
+INFO   | jvm 1    | 2016/01/11 13:21:24 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-63099-1452498683700-0:1) is starting
+INFO   | jvm 1    | 2016/01/11 13:21:25 |  INFO | Listening for connections at: tcp://CMDTSSHIEK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/11 13:21:25 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2016/01/11 13:21:25 |  INFO | Listening for connections at: amqp://CMDTSSHIEK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/11 13:21:25 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2016/01/11 13:21:25 |  INFO | Listening for connections at: stomp://CMDTSSHIEK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/11 13:21:25 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2016/01/11 13:21:25 |  INFO | Listening for connections at: mqtt://CMDTSSHIEK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/11 13:21:25 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2016/01/11 13:21:25 | {}
+INFO   | jvm 1    | 2016/01/11 13:21:27 |  INFO | Listening for connections at ws://CMDTSSHIEK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/11 13:21:27 |  INFO | Connector ws started
+INFO   | jvm 1    | 2016/01/11 13:21:27 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-63099-1452498683700-0:1) started
+INFO   | jvm 1    | 2016/01/11 13:21:27 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2016/01/11 13:21:27 |  WARN | Store limit is 102400 mb (current store usage is 1 mb). The data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb only has 831 mb of usable space - resetting to maximum available disk space: 833 mb
+INFO   | jvm 1    | 2016/01/11 13:21:27 |  WARN | Temporary Store limit is 51200 mb (current temporary store usage is 0 mb). The temporary data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data only has 831 mb of usable space - resetting to maximum available disk space: 831 mb
+INFO   | jvm 1    | 2016/01/11 13:21:30 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2016/01/11 13:21:30 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2016/01/11 13:21:32 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/01/11 13:21:35 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2016/01/11 13:29:54 |  WARN | 
+INFO   | jvm 1    | 2016/01/11 13:29:54 | org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:965)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:844)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:575)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:668)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)[activemq-web-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:106)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/Users/tsshiek/Desktop/apache-activemq-5.12.1/webapps/admin/WEB-INF/classes/:]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.Server.handle(Server.java:370)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at java.lang.Thread.run(Unknown Source)[:1.8.0_66]
+INFO   | jvm 1    | 2016/01/11 13:29:54 |  WARN | /admin/deleteSubscriber.action
+INFO   | jvm 1    | 2016/01/11 13:29:54 | java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59)[file:/C:/Users/tsshiek/Desktop/apache-activemq-5.12.1/webapps/admin/WEB-INF/classes/:]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:297)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1085)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1070)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:891)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:851)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:953)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:844)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:575)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:668)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)[activemq-web-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:106)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/Users/tsshiek/Desktop/apache-activemq-5.12.1/webapps/admin/WEB-INF/classes/:]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.Server.handle(Server.java:370)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:29:54 | 	at java.lang.Thread.run(Unknown Source)[:1.8.0_66]
+INFO   | jvm 1    | 2016/01/11 13:30:05 |  WARN | 
+INFO   | jvm 1    | 2016/01/11 13:30:05 | org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:965)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:844)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:575)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:668)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)[activemq-web-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:106)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/Users/tsshiek/Desktop/apache-activemq-5.12.1/webapps/admin/WEB-INF/classes/:]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.Server.handle(Server.java:370)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at java.lang.Thread.run(Unknown Source)[:1.8.0_66]
+INFO   | jvm 1    | 2016/01/11 13:30:05 |  WARN | /admin/deleteSubscriber.action
+INFO   | jvm 1    | 2016/01/11 13:30:05 | java.lang.UnsupportedOperationException: Possible CSRF attack
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.apache.activemq.web.handler.BindingBeanNameUrlHandlerMapping.getHandlerInternal(BindingBeanNameUrlHandlerMapping.java:59)[file:/C:/Users/tsshiek/Desktop/apache-activemq-5.12.1/webapps/admin/WEB-INF/classes/:]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:297)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1085)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1070)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:891)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:851)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:953)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:844)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:575)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:668)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)[activemq-web-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:106)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/Users/tsshiek/Desktop/apache-activemq-5.12.1/webapps/admin/WEB-INF/classes/:]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.Server.handle(Server.java:370)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:30:05 | 	at java.lang.Thread.run(Unknown Source)[:1.8.0_66]
+INFO   | jvm 1    | 2016/01/11 13:50:38 |  WARN | 
+INFO   | jvm 1    | 2016/01/11 13:50:38 | org.springframework.web.util.NestedServletException: Request processing failed; nested exception is javax.jms.JMSException: Durable consumer is in use
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:965)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:844)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:575)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:668)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)[activemq-web-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:106)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/Users/tsshiek/Desktop/apache-activemq-5.12.1/webapps/admin/WEB-INF/classes/:]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.Server.handle(Server.java:370)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at java.lang.Thread.run(Unknown Source)[:1.8.0_66]
+INFO   | jvm 1    | 2016/01/11 13:50:38 |  WARN | /admin/deleteSubscriber.action
+INFO   | jvm 1    | 2016/01/11 13:50:38 | javax.jms.JMSException: Durable consumer is in use
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.broker.region.TopicRegion.removeSubscription(TopicRegion.java:210)[activemq-broker-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.broker.region.RegionBroker.removeSubscription(RegionBroker.java:448)[activemq-broker-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.broker.BrokerFilter.removeSubscription(BrokerFilter.java:117)[activemq-broker-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.advisory.AdvisoryBroker.removeSubscription(AdvisoryBroker.java:316)[activemq-broker-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.broker.BrokerFilter.removeSubscription(BrokerFilter.java:117)[activemq-broker-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.broker.BrokerFilter.removeSubscription(BrokerFilter.java:117)[activemq-broker-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.broker.MutableBrokerFilter.removeSubscription(MutableBrokerFilter.java:122)[activemq-broker-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.broker.jmx.BrokerView.destroyDurableSubscriber(BrokerView.java:449)[activemq-broker-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.web.controller.DeleteSubscriber.handleRequest(DeleteSubscriber.java:38)[file:/C:/Users/tsshiek/Desktop/apache-activemq-5.12.1/webapps/admin/WEB-INF/classes/:]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter.handle(SimpleControllerHandlerAdapter.java:48)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:919)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:851)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:953)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:844)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:575)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:829)[spring-webmvc-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:668)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1496)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.web.AuditFilter.doFilter(AuditFilter.java:59)[activemq-web-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:106)[spring-web-3.2.11.RELEASE.jar:3.2.11.RELEASE]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1484)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.apache.activemq.web.filter.ApplicationContextFilter.doFilter(ApplicationContextFilter.java:102)[file:/C:/Users/tsshiek/Desktop/apache-activemq-5.12.1/webapps/admin/WEB-INF/classes/:]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:501)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:522)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.Server.handle(Server.java:370)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/11 13:50:38 | 	at java.lang.Thread.run(Unknown Source)[:1.8.0_66]
+INFO   | jvm 1    | 2016/01/11 13:52:57 |  INFO | Connector vm://localhost started
+INFO   | jvm 1    | 2016/01/11 14:25:29 |  INFO | Connector vm://localhost stopped
+INFO   | wrapper  | 2016/01/13 16:54:14 | Wrapper Process has not received any CPU time for 15 seconds.  Extending timeouts.
+INFO   | wrapper  | 2016/01/14 00:05:04 | Wrapper Process has not received any CPU time for 46 seconds.  Extending timeouts.
+INFO   | jvm 1    | 2016/01/14 00:05:04 | Wrapper Manager: The Wrapper code did not ping the JVM for 49 seconds.  Quit and let the Wrapper resynch.
+STATUS | wrapper  | 2016/01/14 00:05:04 | JVM requested a restart.
+INFO   | jvm 1    | 2016/01/14 00:05:06 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-63099-1452498683700-0:1) is shutting down
+INFO   | jvm 1    | 2016/01/14 00:05:06 |  WARN | Transport Connection to: tcp://127.0.0.1:63129 failed: java.io.IOException: Unexpected error occurred: org.apache.activemq.broker.BrokerStoppedException: Broker BrokerService[localhost] is being stopped
+INFO   | jvm 1    | 2016/01/14 00:05:06 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/14 00:05:07 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/14 00:05:07 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/14 00:05:07 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/14 00:05:07 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2016/01/14 00:05:07 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2016/01/14 00:05:08 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-63099-1452498683700-0:1) uptime 2 days 10 hours
+INFO   | jvm 1    | 2016/01/14 00:05:08 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-63099-1452498683700-0:1) is shutdown
+INFO   | jvm 1    | 2016/01/14 00:05:08 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@1f88d510: startup date [Mon Jan 11 13:21:11 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/14 00:05:08 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/01/14 00:05:10 |  WARN | 8 threads could not be stopped
+STATUS | wrapper  | 2016/01/14 00:05:15 | Launching a JVM...
+INFO   | jvm 2    | 2016/01/14 00:05:23 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 2    | 2016/01/14 00:05:23 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 2    | 2016/01/14 00:05:23 | 
+INFO   | jvm 2    | 2016/01/14 00:05:24 | Java Runtime: Oracle Corporation 1.8.0_66 C:\Program Files\Java\jre1.8.0_66
+INFO   | jvm 2    | 2016/01/14 00:05:24 |   Heap sizes: current=123904k  free=114717k  max=932352k
+INFO   | jvm 2    | 2016/01/14 00:05:24 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=Pgwmo6zEJ7Nktcs2 -Dwrapper.port=32001 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=5152 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=2
+INFO   | jvm 2    | 2016/01/14 00:05:24 | Extensions classpath:
+INFO   | jvm 2    | 2016/01/14 00:05:24 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 2    | 2016/01/14 00:05:24 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 2    | 2016/01/14 00:05:24 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 2    | 2016/01/14 00:05:24 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 2    | 2016/01/14 00:05:24 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 2    | 2016/01/14 00:05:36 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 2    | 2016/01/14 00:05:36 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@78d11803: startup date [Thu Jan 14 00:05:36 IST 2016]; root of context hierarchy
+INFO   | jvm 2    | 2016/01/14 00:05:41 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 2    | 2016/01/14 00:05:41 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 2    | 2016/01/14 00:05:45 |  INFO | KahaDB is version 6
+INFO   | jvm 2    | 2016/01/14 00:05:46 |  INFO | Recovering from the journal @1:785729
+INFO   | jvm 2    | 2016/01/14 00:05:47 |  INFO | Recovery replayed 8036 operations from the journal in 1.351 seconds.
+INFO   | jvm 2    | 2016/01/14 00:05:48 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-54275-1452710147775-0:1) is starting
+INFO   | jvm 2    | 2016/01/14 00:05:48 |  INFO | Listening for connections at: tcp://CMDTSSHIEK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2016/01/14 00:05:48 |  INFO | Connector openwire started
+INFO   | jvm 2    | 2016/01/14 00:05:48 |  INFO | Listening for connections at: amqp://CMDTSSHIEK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2016/01/14 00:05:48 |  INFO | Connector amqp started
+INFO   | jvm 2    | 2016/01/14 00:05:48 |  INFO | Listening for connections at: stomp://CMDTSSHIEK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2016/01/14 00:05:48 |  INFO | Connector stomp started
+INFO   | jvm 2    | 2016/01/14 00:05:48 |  INFO | Listening for connections at: mqtt://CMDTSSHIEK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2016/01/14 00:05:48 |  INFO | Connector mqtt started
+INFO   | jvm 2    | 2016/01/14 00:05:49 | {}
+INFO   | jvm 2    | 2016/01/14 00:05:49 |  INFO | Listening for connections at ws://CMDTSSHIEK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 2    | 2016/01/14 00:05:49 |  INFO | Connector ws started
+INFO   | jvm 2    | 2016/01/14 00:05:49 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-54275-1452710147775-0:1) started
+INFO   | jvm 2    | 2016/01/14 00:05:49 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 2    | 2016/01/14 00:05:49 |  WARN | Store limit is 102400 mb (current store usage is 2 mb). The data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb only has 719 mb of usable space - resetting to maximum available disk space: 722 mb
+INFO   | jvm 2    | 2016/01/14 00:05:50 |  WARN | Temporary Store limit is 51200 mb (current temporary store usage is 0 mb). The temporary data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data only has 719 mb of usable space - resetting to maximum available disk space: 719 mb
+INFO   | jvm 2    | 2016/01/14 00:05:54 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 2    | 2016/01/14 00:05:54 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 2    | 2016/01/14 00:05:55 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 2    | 2016/01/14 00:05:58 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | wrapper  | 2016/01/18 09:03:32 | Wrapper Process has not received any CPU time for 14 seconds.  Extending timeouts.
+INFO   | jvm 2    | 2016/01/18 09:08:04 |  WARN | Transport Connection to: tcp://127.0.0.1:54278 failed: java.net.SocketException: Connection reset
+INFO   | jvm 2    | 2016/01/18 09:08:07 |  WARN | Transport Connection to: tcp://127.0.0.1:54279 failed: java.net.SocketException: Connection reset
+INFO   | wrapper  | 2016/01/18 09:35:42 | Wrapper Process has not received any CPU time for 15 seconds.  Extending timeouts.
+STATUS | wrapper  | 2016/01/21 17:53:47 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/01/21 17:53:48 | Launching a JVM...
+INFO   | jvm 1    | 2016/01/21 17:53:50 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/01/21 17:53:50 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/01/21 17:53:50 | 
+INFO   | jvm 1    | 2016/01/21 17:53:50 | Java Runtime: Oracle Corporation 1.8.0_66 C:\Program Files\Java\jre1.8.0_66
+INFO   | jvm 1    | 2016/01/21 17:53:50 |   Heap sizes: current=123904k  free=114674k  max=932352k
+INFO   | jvm 1    | 2016/01/21 17:53:50 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=fO_LvKeLOmppz15o -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=1324 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/01/21 17:53:50 | Extensions classpath:
+INFO   | jvm 1    | 2016/01/21 17:53:50 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2016/01/21 17:53:50 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/01/21 17:53:50 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/01/21 17:53:50 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/01/21 17:53:50 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/01/21 17:53:54 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/01/21 17:53:54 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@39c3caff: startup date [Thu Jan 21 17:53:54 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/21 17:53:57 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2016/01/21 17:53:57 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/01/21 17:53:58 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2016/01/21 17:53:58 |  INFO | Recovering from the journal @1:1739064
+INFO   | jvm 1    | 2016/01/21 17:53:59 |  INFO | Recovery replayed 10502 operations from the journal in 0.692 seconds.
+INFO   | jvm 1    | 2016/01/21 17:53:59 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-65502-1453379039244-0:1) is starting
+INFO   | jvm 1    | 2016/01/21 17:53:59 |  INFO | Listening for connections at: tcp://CMDTSSHIEK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/21 17:53:59 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2016/01/21 17:53:59 |  INFO | Listening for connections at: amqp://CMDTSSHIEK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/21 17:53:59 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2016/01/21 17:53:59 |  INFO | Listening for connections at: stomp://CMDTSSHIEK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/21 17:53:59 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2016/01/21 17:53:59 |  INFO | Listening for connections at: mqtt://CMDTSSHIEK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/21 17:53:59 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2016/01/21 17:53:59 | {}
+INFO   | jvm 1    | 2016/01/21 17:54:00 |  INFO | Listening for connections at ws://CMDTSSHIEK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/21 17:54:00 |  INFO | Connector ws started
+INFO   | jvm 1    | 2016/01/21 17:54:00 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-65502-1453379039244-0:1) started
+INFO   | jvm 1    | 2016/01/21 17:54:00 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2016/01/21 17:54:00 |  WARN | Store limit is 102400 mb (current store usage is 3 mb). The data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb only has 639 mb of usable space - resetting to maximum available disk space: 643 mb
+INFO   | jvm 1    | 2016/01/21 17:54:00 |  WARN | Temporary Store limit is 51200 mb (current temporary store usage is 0 mb). The temporary data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data only has 639 mb of usable space - resetting to maximum available disk space: 639 mb
+INFO   | jvm 1    | 2016/01/21 17:54:01 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2016/01/21 17:54:01 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2016/01/21 17:54:02 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/01/21 17:54:03 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2016/01/21 18:05:37 |  WARN | /WebMobileGroupChatServer/index.html
+INFO   | jvm 1    | 2016/01/21 18:05:37 | java.lang.NullPointerException
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.apache.activemq.transport.ws.jetty8.WSServlet.doGet(WSServlet.java:51)[activemq-http-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:575)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.websocket.WebSocketServlet.service(WebSocketServlet.java:106)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:668)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.Server.handle(Server.java:370)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at java.lang.Thread.run(Unknown Source)[:1.8.0_66]
+INFO   | jvm 1    | 2016/01/21 18:05:37 |  WARN | /favicon.ico
+INFO   | jvm 1    | 2016/01/21 18:05:37 | java.lang.NullPointerException
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.apache.activemq.transport.ws.jetty8.WSServlet.doGet(WSServlet.java:51)[activemq-http-5.12.1.jar:5.12.1]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:575)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.websocket.WebSocketServlet.service(WebSocketServlet.java:106)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:668)[geronimo-servlet_3.0_spec-1.0.jar:1.0]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.Server.handle(Server.java:370)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)[jetty-all-8.1.16.v20140903.jar:8.1.16.v20140903]
+INFO   | jvm 1    | 2016/01/21 18:05:37 | 	at java.lang.Thread.run(Unknown Source)[:1.8.0_66]
+STATUS | wrapper  | 2016/01/22 11:50:32 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2016/01/22 11:50:35 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-65502-1453379039244-0:1) is shutting down
+INFO   | jvm 1    | 2016/01/22 11:50:36 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2016/01/22 11:50:36 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/22 11:50:36 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/22 11:50:36 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/22 11:50:36 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2016/01/22 11:50:36 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/22 11:50:36 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2016/01/22 11:50:37 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/22 11:50:37 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/22 11:50:37 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2016/01/22 11:50:37 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/22 11:50:37 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/22 11:50:38 |  WARN | 5 threads could not be stopped
+INFO   | jvm 1    | 2016/01/22 11:50:39 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2016/01/22 11:50:39 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2016/01/22 11:50:39 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2016/01/22 11:50:39 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2016/01/22 11:50:39 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2016/01/22 11:50:41 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-65502-1453379039244-0:1) uptime 17 hours 56 minutes
+INFO   | jvm 1    | 2016/01/22 11:50:41 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-65502-1453379039244-0:1) is shutdown
+INFO   | jvm 1    | 2016/01/22 11:50:41 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@39c3caff: startup date [Thu Jan 21 17:53:54 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/22 11:50:42 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2016/01/22 11:50:44 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/01/22 11:50:56 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/01/22 11:50:56 | Launching a JVM...
+INFO   | jvm 1    | 2016/01/22 11:51:00 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/01/22 11:51:00 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/01/22 11:51:00 | 
+INFO   | jvm 1    | 2016/01/22 11:51:00 | Java Runtime: Oracle Corporation 1.8.0_66 C:\Program Files\Java\jre1.8.0_66
+INFO   | jvm 1    | 2016/01/22 11:51:00 |   Heap sizes: current=123904k  free=114675k  max=932352k
+INFO   | jvm 1    | 2016/01/22 11:51:00 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=7HHebEPA6t2fBiPb -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9196 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/01/22 11:51:00 | Extensions classpath:
+INFO   | jvm 1    | 2016/01/22 11:51:00 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2016/01/22 11:51:00 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/01/22 11:51:00 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/01/22 11:51:00 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/01/22 11:51:00 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/01/22 11:51:07 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/01/22 11:51:07 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@7c6cca42: startup date [Fri Jan 22 11:51:07 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/22 11:51:16 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2016/01/22 11:51:16 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/01/22 11:51:18 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2016/01/22 11:51:19 |  INFO | Recovering from the journal @1:2989277
+INFO   | jvm 1    | 2016/01/22 11:51:19 |  INFO | Recovery replayed 3009 operations from the journal in 0.499 seconds.
+INFO   | jvm 1    | 2016/01/22 11:51:20 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-52888-1453443679774-0:1) is starting
+INFO   | jvm 1    | 2016/01/22 11:51:22 |  INFO | Listening for connections at: tcp://CMDTSSHIEK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/22 11:51:22 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2016/01/22 11:51:22 |  INFO | Listening for connections at: amqp://CMDTSSHIEK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/22 11:51:22 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2016/01/22 11:51:22 |  INFO | Listening for connections at: stomp://CMDTSSHIEK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/22 11:51:22 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2016/01/22 11:51:22 |  INFO | Listening for connections at: mqtt://CMDTSSHIEK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/22 11:51:22 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2016/01/22 11:51:22 | {}
+INFO   | jvm 1    | 2016/01/22 11:51:23 |  INFO | Listening for connections at ws://CMDTSSHIEK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/22 11:51:23 |  INFO | Connector ws started
+INFO   | jvm 1    | 2016/01/22 11:51:23 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-52888-1453443679774-0:1) started
+INFO   | jvm 1    | 2016/01/22 11:51:23 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2016/01/22 11:51:23 |  WARN | Store limit is 102400 mb (current store usage is 4 mb). The data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb only has 1566 mb of usable space - resetting to maximum available disk space: 1570 mb
+INFO   | jvm 1    | 2016/01/22 11:51:23 |  WARN | Temporary Store limit is 51200 mb (current temporary store usage is 0 mb). The temporary data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data only has 1566 mb of usable space - resetting to maximum available disk space: 1566 mb
+INFO   | jvm 1    | 2016/01/22 11:51:27 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2016/01/22 11:51:27 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2016/01/22 11:51:28 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/01/22 11:51:31 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+STATUS | wrapper  | 2016/01/25 10:30:16 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/01/25 10:30:16 | Launching a JVM...
+INFO   | jvm 1    | 2016/01/25 10:30:23 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/01/25 10:30:23 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/01/25 10:30:23 | 
+INFO   | jvm 1    | 2016/01/25 10:30:23 | Java Runtime: Oracle Corporation 1.8.0_66 C:\Program Files\Java\jre1.8.0_66
+INFO   | jvm 1    | 2016/01/25 10:30:23 |   Heap sizes: current=123904k  free=114666k  max=932352k
+INFO   | jvm 1    | 2016/01/25 10:30:23 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=tBzkuFH3ZJCWtmw7 -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=10812 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/01/25 10:30:23 | Extensions classpath:
+INFO   | jvm 1    | 2016/01/25 10:30:23 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2016/01/25 10:30:23 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/01/25 10:30:23 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/01/25 10:30:23 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/01/25 10:30:23 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/01/25 10:30:35 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/01/25 10:30:36 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@41b9cce1: startup date [Mon Jan 25 10:30:36 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/25 10:30:44 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2016/01/25 10:30:44 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/01/25 10:30:47 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2016/01/25 10:30:48 |  INFO | Recovering from the journal @1:3347823
+INFO   | jvm 1    | 2016/01/25 10:30:48 |  INFO | Recovery replayed 1457 operations from the journal in 0.388 seconds.
+INFO   | jvm 1    | 2016/01/25 10:30:48 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-59626-1453698048559-0:1) is starting
+INFO   | jvm 1    | 2016/01/25 10:30:49 |  INFO | Listening for connections at: tcp://CMDTSSHIEK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/25 10:30:49 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2016/01/25 10:30:49 |  INFO | Listening for connections at: amqp://CMDTSSHIEK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/25 10:30:49 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2016/01/25 10:30:49 |  INFO | Listening for connections at: stomp://CMDTSSHIEK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/25 10:30:49 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2016/01/25 10:30:49 |  INFO | Listening for connections at: mqtt://CMDTSSHIEK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/25 10:30:49 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2016/01/25 10:30:50 | {}
+INFO   | jvm 1    | 2016/01/25 10:30:51 |  INFO | Listening for connections at ws://CMDTSSHIEK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/25 10:30:51 |  INFO | Connector ws started
+INFO   | jvm 1    | 2016/01/25 10:30:51 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-59626-1453698048559-0:1) started
+INFO   | jvm 1    | 2016/01/25 10:30:51 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2016/01/25 10:30:51 |  WARN | Store limit is 102400 mb (current store usage is 4 mb). The data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb only has 1923 mb of usable space - resetting to maximum available disk space: 1928 mb
+INFO   | jvm 1    | 2016/01/25 10:30:51 |  WARN | Temporary Store limit is 51200 mb (current temporary store usage is 0 mb). The temporary data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data only has 1923 mb of usable space - resetting to maximum available disk space: 1923 mb
+INFO   | jvm 1    | 2016/01/25 10:30:54 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2016/01/25 10:30:54 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2016/01/25 10:30:55 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/01/25 10:30:57 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2016/01/25 14:53:09 |  WARN | Transport Connection to: tcp://127.0.0.1:60915 failed: java.net.SocketException: Connection reset
+STATUS | wrapper  | 2016/01/25 14:56:08 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2016/01/25 14:56:09 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-59626-1453698048559-0:1) is shutting down
+INFO   | jvm 1    | 2016/01/25 14:56:09 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/25 14:56:09 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/25 14:56:09 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2016/01/25 14:56:09 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/25 14:56:09 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2016/01/25 14:56:09 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/25 14:56:09 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/25 14:56:09 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/25 14:56:09 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2016/01/25 14:56:09 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/25 14:56:09 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2016/01/25 14:56:09 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/25 14:56:09 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2016/01/25 14:56:10 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2016/01/25 14:56:10 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2016/01/25 14:56:10 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2016/01/25 14:56:10 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2016/01/25 14:56:10 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-59626-1453698048559-0:1) uptime 4 hours 25 minutes
+INFO   | jvm 1    | 2016/01/25 14:56:10 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-59626-1453698048559-0:1) is shutdown
+INFO   | jvm 1    | 2016/01/25 14:56:10 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@41b9cce1: startup date [Mon Jan 25 10:30:36 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/25 14:56:10 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+STATUS | wrapper  | 2016/01/25 14:56:11 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/01/25 14:56:15 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/01/25 14:56:15 | Launching a JVM...
+INFO   | jvm 1    | 2016/01/25 14:56:16 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/01/25 14:56:16 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/01/25 14:56:16 | 
+INFO   | jvm 1    | 2016/01/25 14:56:16 | Java Runtime: Oracle Corporation 1.8.0_66 C:\Program Files\Java\jre1.8.0_66
+INFO   | jvm 1    | 2016/01/25 14:56:16 |   Heap sizes: current=123904k  free=114666k  max=932352k
+INFO   | jvm 1    | 2016/01/25 14:56:16 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=Eebyblmn4Gw5lv3l -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=9288 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/01/25 14:56:16 | Extensions classpath:
+INFO   | jvm 1    | 2016/01/25 14:56:16 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2016/01/25 14:56:16 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/01/25 14:56:16 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/01/25 14:56:16 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/01/25 14:56:16 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/01/25 14:56:17 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/01/25 14:56:17 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@44c034b8: startup date [Mon Jan 25 14:56:17 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/25 14:56:19 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2016/01/25 14:56:19 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/01/25 14:56:20 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2016/01/25 14:56:20 |  INFO | Recovering from the journal @1:3521681
+INFO   | jvm 1    | 2016/01/25 14:56:21 |  INFO | Recovery replayed 2473 operations from the journal in 0.328 seconds.
+INFO   | jvm 1    | 2016/01/25 14:56:21 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-61911-1453713981118-0:1) is starting
+INFO   | jvm 1    | 2016/01/25 14:56:21 |  INFO | Listening for connections at: tcp://CMDTSSHIEK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/25 14:56:21 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2016/01/25 14:56:21 |  INFO | Listening for connections at: amqp://CMDTSSHIEK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/25 14:56:21 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2016/01/25 14:56:21 |  INFO | Listening for connections at: stomp://CMDTSSHIEK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/25 14:56:21 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2016/01/25 14:56:21 |  INFO | Listening for connections at: mqtt://CMDTSSHIEK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/25 14:56:21 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2016/01/25 14:56:21 | {}
+INFO   | jvm 1    | 2016/01/25 14:56:22 |  INFO | Listening for connections at ws://CMDTSSHIEK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/25 14:56:22 |  INFO | Connector ws started
+INFO   | jvm 1    | 2016/01/25 14:56:22 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-61911-1453713981118-0:1) started
+INFO   | jvm 1    | 2016/01/25 14:56:22 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2016/01/25 14:56:22 |  WARN | Store limit is 102400 mb (current store usage is 4 mb). The data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb only has 1045 mb of usable space - resetting to maximum available disk space: 1050 mb
+INFO   | jvm 1    | 2016/01/25 14:56:22 |  WARN | Temporary Store limit is 51200 mb (current temporary store usage is 0 mb). The temporary data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data only has 1045 mb of usable space - resetting to maximum available disk space: 1045 mb
+INFO   | jvm 1    | 2016/01/25 14:56:23 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2016/01/25 14:56:23 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2016/01/25 14:56:23 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/01/25 14:56:24 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2016/01/25 19:31:39 |  WARN | Transport Connection to: tcp://127.0.0.1:62011 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:62011
+INFO   | jvm 1    | 2016/01/26 08:33:17 |  WARN | Transport Connection to: tcp://127.0.0.1:61917 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2016/01/26 08:33:20 |  WARN | Transport Connection to: tcp://127.0.0.1:61910 failed: java.net.SocketException: Connection reset
+INFO   | jvm 1    | 2016/01/26 10:02:36 |  WARN | Transport Connection to: tcp://127.0.0.1:49848 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:49848
+STATUS | wrapper  | 2016/01/26 10:43:51 | CTRL-C trapped.  Shutting down.
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-61911-1453713981118-0:1) is shutting down
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Connector openwire stopped
+INFO   | jvm 1    | 2016/01/26 10:43:53 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Connector amqp stopped
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Connector stomp stopped
+INFO   | jvm 1    | 2016/01/26 10:43:53 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Connector mqtt stopped
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | socketQueue interuppted - stopping
+INFO   | jvm 1    | 2016/01/26 10:43:53 | ERROR | Could not accept connection : java.lang.InterruptedException
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Connector ws stopped
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] stopped
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Stopping async queue tasks
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Stopping async topic tasks
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Stopped KahaDB
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-61911-1453713981118-0:1) uptime 19 hours 47 minutes
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-61911-1453713981118-0:1) is shutdown
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@44c034b8: startup date [Mon Jan 25 14:56:17 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  INFO | Destroying Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/01/26 10:43:53 |  WARN | 1 threads could not be stopped
+STATUS | wrapper  | 2016/01/26 10:43:54 | <-- Wrapper Stopped
+STATUS | wrapper  | 2016/01/26 10:43:59 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/01/26 10:43:59 | Launching a JVM...
+INFO   | jvm 1    | 2016/01/26 10:44:00 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/01/26 10:44:00 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/01/26 10:44:00 | 
+INFO   | jvm 1    | 2016/01/26 10:44:01 | Java Runtime: Oracle Corporation 1.8.0_66 C:\Program Files\Java\jre1.8.0_66
+INFO   | jvm 1    | 2016/01/26 10:44:01 |   Heap sizes: current=123904k  free=114666k  max=932352k
+INFO   | jvm 1    | 2016/01/26 10:44:01 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=yvE7GmGKGnru52xE -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=13772 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/01/26 10:44:01 | Extensions classpath:
+INFO   | jvm 1    | 2016/01/26 10:44:01 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2016/01/26 10:44:01 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/01/26 10:44:01 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/01/26 10:44:01 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/01/26 10:44:01 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/01/26 10:44:01 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/01/26 10:44:01 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@39c3caff: startup date [Tue Jan 26 10:44:01 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/26 10:44:03 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2016/01/26 10:44:03 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/01/26 10:44:04 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2016/01/26 10:44:04 |  INFO | Recovering from the journal @1:3816443
+INFO   | jvm 1    | 2016/01/26 10:44:04 |  INFO | Recovery replayed 4425 operations from the journal in 0.348 seconds.
+INFO   | jvm 1    | 2016/01/26 10:44:04 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-50586-1453785244725-0:1) is starting
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Listening for connections at: tcp://CMDTSSHIEK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Listening for connections at: amqp://CMDTSSHIEK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Listening for connections at: stomp://CMDTSSHIEK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Listening for connections at: mqtt://CMDTSSHIEK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2016/01/26 10:44:05 | {}
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Listening for connections at ws://CMDTSSHIEK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Connector ws started
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-50586-1453785244725-0:1) started
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  WARN | Store limit is 102400 mb (current store usage is 5 mb). The data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb only has 318 mb of usable space - resetting to maximum available disk space: 323 mb
+INFO   | jvm 1    | 2016/01/26 10:44:05 |  WARN | Temporary Store limit is 51200 mb (current temporary store usage is 0 mb). The temporary data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data only has 317 mb of usable space - resetting to maximum available disk space: 317 mb
+INFO   | jvm 1    | 2016/01/26 10:44:06 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2016/01/26 10:44:06 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2016/01/26 10:44:06 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/01/26 10:44:07 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2016/01/26 12:20:17 |  WARN | Transport Connection to: tcp://127.0.0.1:51121 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:51121
+STATUS | wrapper  | 2016/01/26 14:25:54 | --> Wrapper Started as Console
+STATUS | wrapper  | 2016/01/26 14:25:54 | Launching a JVM...
+INFO   | jvm 1    | 2016/01/26 14:25:56 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2016/01/26 14:25:56 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2016/01/26 14:25:56 | 
+INFO   | jvm 1    | 2016/01/26 14:25:56 | Java Runtime: Oracle Corporation 1.8.0_66 C:\Program Files\Java\jre1.8.0_66
+INFO   | jvm 1    | 2016/01/26 14:25:56 |   Heap sizes: current=123904k  free=114675k  max=932352k
+INFO   | jvm 1    | 2016/01/26 14:25:56 |     JVM args: -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=true -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=OrxahVP4u0_eElXn -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=7060 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2016/01/26 14:25:56 | Extensions classpath:
+INFO   | jvm 1    | 2016/01/26 14:25:56 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2016/01/26 14:25:56 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2016/01/26 14:25:56 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2016/01/26 14:25:56 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2016/01/26 14:25:56 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2016/01/26 14:25:58 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2016/01/26 14:25:58 |  INFO | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@79be382e: startup date [Tue Jan 26 14:25:58 IST 2016]; root of context hierarchy
+INFO   | jvm 1    | 2016/01/26 14:26:01 |  INFO | PListStore:[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2016/01/26 14:26:01 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2016/01/26 14:26:02 |  INFO | KahaDB is version 6
+INFO   | jvm 1    | 2016/01/26 14:26:02 |  INFO | Recovering from the journal @1:4343493
+INFO   | jvm 1    | 2016/01/26 14:26:02 |  INFO | Recovery replayed 1144 operations from the journal in 0.16 seconds.
+INFO   | jvm 1    | 2016/01/26 14:26:03 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-53228-1453798562992-0:1) is starting
+INFO   | jvm 1    | 2016/01/26 14:26:03 |  INFO | Listening for connections at: tcp://CMDTSSHIEK:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/26 14:26:03 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2016/01/26 14:26:03 |  INFO | Listening for connections at: amqp://CMDTSSHIEK:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/26 14:26:03 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2016/01/26 14:26:03 |  INFO | Listening for connections at: stomp://CMDTSSHIEK:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/26 14:26:03 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2016/01/26 14:26:03 |  INFO | Listening for connections at: mqtt://CMDTSSHIEK:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/26 14:26:03 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2016/01/26 14:26:04 | {}
+INFO   | jvm 1    | 2016/01/26 14:26:04 |  INFO | Listening for connections at ws://CMDTSSHIEK:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2016/01/26 14:26:04 |  INFO | Connector ws started
+INFO   | jvm 1    | 2016/01/26 14:26:04 |  INFO | Apache ActiveMQ 5.12.1 (localhost, ID:CMDTSSHIEK-53228-1453798562992-0:1) started
+INFO   | jvm 1    | 2016/01/26 14:26:04 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2016/01/26 14:26:04 |  WARN | Store limit is 102400 mb (current store usage is 5 mb). The data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data\kahadb only has 1359 mb of usable space - resetting to maximum available disk space: 1364 mb
+INFO   | jvm 1    | 2016/01/26 14:26:04 |  WARN | Temporary Store limit is 51200 mb (current temporary store usage is 0 mb). The temporary data directory: C:\Users\tsshiek\Desktop\apache-activemq-5.12.1\bin\win64\..\..\data only has 1359 mb of usable space - resetting to maximum available disk space: 1359 mb
+INFO   | jvm 1    | 2016/01/26 14:26:06 |  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+INFO   | jvm 1    | 2016/01/26 14:26:06 |  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+INFO   | jvm 1    | 2016/01/26 14:26:06 |  INFO | Initializing Spring FrameworkServlet 'dispatcher'
+INFO   | jvm 1    | 2016/01/26 14:26:08 |  INFO | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed
+INFO   | jvm 1    | 2016/01/26 19:00:47 |  WARN | Transport Connection to: tcp://127.0.0.1:53618 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:53618
+INFO   | jvm 1    | 2016/01/27 00:00:05 |  WARN | Transport Connection to: tcp://127.0.0.1:53628 failed: org.apache.activemq.transport.InactivityIOException: Channel was inactive for too (>30000) long: tcp://127.0.0.1:53628
